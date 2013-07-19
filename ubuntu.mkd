@@ -1,0 +1,11 @@
+#Ubuntu相关
+##1. “.run”文件的运行
+首先加入可执行权限，终端输入`sudo chmod +x name.run`（这里name是文件名中不包括.run的部分,然后执行即可`./name.run`
+##2.解压相关
+`tar -zxf filename`
+##3.删除文件夹
+要删除文件夹，可用rmdir，但是这个命令实在太恶心了，遇到非空的还要加入别的东西，可以使用rm命令，不过要加入-rf，比如“rm -rf dirname”
+##4.文件编码问题
+在终端下输入`iconv -f GBK -t UTF-8 file1 -o file2`
+##5.deb包的安装
+在终端下输入 sudo dekg -i filename即可

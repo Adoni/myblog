@@ -1,0 +1,43 @@
+<center>GitHub一般应用</center>
+====
+<center>Adoni1203</center>
+----
+##一. 典型操作
+###1.建立
+一个项目刚刚建立时，执行：
+	
+	git init
+	git add .
+	git commit -m "some words"
+	git remote add origin 【项目的SSH地址】（如 git remote add origin git@github.com:Adoni/Adoni.git）
+	git push origin master (或者也可以用 git push直接代替)
+
+以后就可以直接执行`git push` 即可
+
+
+###2.复制代码到本地
+从github上复制代码到本地最常用的是：
+
+	git clone 【项目的SSH地址】（如git clone git@github.com:Adoni/Adoni.git）
+
+如果是复制并同本地代码合并，则需要：
+
+	git pull 【项目SSH地址】（如git pull git@github.com:Adoni/Adoni.git）
+
+##常见错误
+###1.ssh错误
+
+提示
+	Permission denied (publickey).
+	fatal: The remote end hung up unexpectedly
+
+你需要为github帐号添加SSH keys：
+
+>1）在本地创建SSH key。需要执行如下命令：`ssh-keygen`。然后系统提示输入文件保存位置等信息，连续敲三次回车即可，生成的SSH key文件保存在中～/.ssh/id_rsa.pub
+
+>2）接着拷贝`.ssh/id_rsa.pub`文件内的所以内容，打开github上的Accounting settings图标，选择 SSH key，点击 Add SSH key
+在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可，然后将上面拷贝的~/.ssh/id_rsa.pub文件内容粘帖到key一栏，在点击“add key”按钮就可以了，添加过程github可能会提示你输入一次你的github密码。界面如下图：
+
+>![](./images/ssh.png)
+
+添加完成后再次执行git clone就可以成功克隆github上的代码库了。

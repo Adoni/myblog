@@ -1,0 +1,15 @@
+#Rails Start
+##1.配置mysql
+1）将Gemfile下的【`gem 'sqlite'`】这条语句改成【`gem ‘mysql2’`】，并在其后加上一条语句【`gem 'therubyracer'`】  
+2）进入/config/目录下，打开database.yml文件，将development下的adapter从sqlite改成mysql2，并添加username、password、enconding等信息，删除除development之外的其他语句块，其效果大致如下:
+
+    development:
+      adapter: mysql2
+      database: depot
+      username: root
+      password: 9261fafa
+      encoding: utf8
+      pool: 5
+      timeout: 5000
+3)在项目根目录下执行【`rake db:create`】【`rake db:migrate`】【`bundle install`】  
+搞定

@@ -1,0 +1,50 @@
+#matlab 笔记
+##一. 向量
+1. 求模 norm
+
+2. abs是把向量的所有元素取绝对值
+
+3. “,”分割行向量 “；”分割列向量
+##二. 线性规划
+1. x=linprog（c,a,b,aeq,beq,zeros(3,1)），注意c是列向量，最后求值的时候可以用value=c'*x，也可以直接[x,value]=linprog（c,a,b,aeq,beq,zeros(3,1)）
+
+2. aeq,beq可以是[]
+
+3. 产销运输平衡问题可以用表上作业法
+##三. 矩阵
+1. 建立函数：
+1) ones()函数：产生全为1的矩阵，ones(n)：产生n*n维的全1矩阵，ones(m,n)：产生m*n维的全1矩阵；
+2) zeros()函数：产生全为0的矩阵；
+3) rand()函数：产生在（0，1）区间均匀分布的随机阵；
+4) eye()函数：产生单位阵；
+5) randn()函数：产生均值为0，方差为1的标准正态分布随机矩阵。
+2. 拆分：
+1）a[i,:]表示取出第i行的所有元素
+3. 矩阵运算函数:求行列式(det),矩阵求逆(inv),求秩(rank) 求迹(trace),求模(norm),d=eig(A)求矩阵 A 的特征值,[v,d]=eig(A)求矩阵 A 的特征向量和特征值,这里 v 的列向量是对应的特征向量。
+##四. 绘图
+1. plot：plot(x,y,’color_point_linestyle’)线色(r-red,g-green,b-blue,w-white,k-black,i-invisible,y-yellow),数据点(.,o,x,+,*,S,H,D,V,^,>,<,p)与线型(-,-.,--,:)
+
+2. title(‘My Title’), xlabel(‘My X-axis Label’), ylabel(‘My Y-axis Label’), text(x,y,'Text for annotation'), gtext('Text for annotation'), grid，hold on，axis([x-min,x-max,y-min,y-max])
+###3. 三维绘图
+		x=[-5:0.1:5]    
+		y=[-5:0.1:5]
+		[X,Y]=meshgrid(x,y)
+		Z=sin(abs(Y))+X.*Y
+		mesh(X,Y,Z)
+##五. 符号运算
+1. 关于赋值
+
+		syms x 
+		f=x^2 
+		f(2)
+		clc
+		t=[1:1:10]
+		y=subs(f,x,t)
+##附：杂
+###1. fprintf %d整数； %e实数：科学计算法形式； %f实数：小数形式； %g由系统自动选取上述两种格式之一； %s输出字符串
+###2. [head,step,end]---linspace(head,end,n) 表示均匀取n个数
+###3. 注意.*和*，尤其在绘图等需要向量的时候，一般要带“.”
+###
+###
+###
+###

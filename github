@@ -1,0 +1,261 @@
+yiyufafa@yiyufafa-Lenovo-G470:~$ cd git/repos/
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos$ git clone git@github.com:Adoni/Adoni.git
+Cloning into 'Adoni'...
+warning: You appear to have cloned an empty repository.
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos$ ls -l
+总用量 4
+drwxr-xr-x 3 yiyufafa yiyufafa 4096  7月 27 18:01 Adoni
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos$ ls -al
+总用量 12
+drwxrwxr-x 3 yiyufafa yiyufafa 4096  7月 27 18:01 .
+drwxrwxr-x 3 yiyufafa yiyufafa 4096  7月 27 16:43 ..
+drwxr-xr-x 3 yiyufafa yiyufafa 4096  7月 27 18:01 Adoni
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos$ cd Adoni/
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ ls -al
+总用量 12
+drwxr-xr-x 3 yiyufafa yiyufafa 4096  7月 27 18:01 .
+drwxrwxr-x 3 yiyufafa yiyufafa 4096  7月 27 18:01 ..
+drwxrwxr-x 7 yiyufafa yiyufafa 4096  7月 27 18:02 .git
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ ls
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ ls
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ ls
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ l
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ ls
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ cd ~/DEVELOPMENT/android-sdks/
+add-ons/        extras/         platform-tools/ tools/
+docs/           platforms/      temp/           
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ cd ~/workspace/
+AppLock/   hkhk/      .metadata/ qqqq/      
+yiyufafa@yiyufafa-Lenovo-G470:~/git/repos/Adoni$ cd ~/workspace/
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace$ ls
+AppLock  hkhk  qqqq
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace$ cd AppLock/cd
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls -al
+总用量 92
+drwxrwxr-x 9 yiyufafa yiyufafa  4096  7月 26 21:59 .
+drwxrwxr-x 6 yiyufafa yiyufafa  4096  7月 26 21:59 ..
+-rw-rw-r-- 1 yiyufafa yiyufafa   772  7月 26 21:59 AndroidManifest.xml
+drwxrwxr-x 2 yiyufafa yiyufafa  4096  7月 26 21:59 assets
+drwxrwxr-x 4 yiyufafa yiyufafa  4096  7月 26 23:34 bin
+-rw-rw-r-- 1 yiyufafa yiyufafa   356  7月 26 22:00 .classpath
+drwxrwxr-x 3 yiyufafa yiyufafa  4096  7月 26 22:00 gen
+-rw-rw-r-- 1 yiyufafa yiyufafa 36498  7月 26 21:59 ic_launcher-web.png
+drwxrwxr-x 2 yiyufafa yiyufafa  4096  7月 26 21:59 libs
+-rw-rw-r-- 1 yiyufafa yiyufafa   781  7月 26 21:59 proguard-project.txt
+-rw-rw-r-- 1 yiyufafa yiyufafa   810  7月 26 21:59 .project
+-rw-rw-r-- 1 yiyufafa yiyufafa   563  7月 26 21:59 project.properties
+drwxrwxr-x 9 yiyufafa yiyufafa  4096  7月 26 21:59 res
+drwxrwxr-x 2 yiyufafa yiyufafa  4096  7月 26 21:59 .settings
+drwxrwxr-x 3 yiyufafa yiyufafa  4096  7月 26 21:59 src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git init
+Initialized empty Git repository in /home/yiyufafa/workspace/AppLock/.git/
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls -al
+总用量 96
+drwxrwxr-x 10 yiyufafa yiyufafa  4096  7月 27 18:04 .
+drwxrwxr-x  6 yiyufafa yiyufafa  4096  7月 26 21:59 ..
+-rw-rw-r--  1 yiyufafa yiyufafa   772  7月 26 21:59 AndroidManifest.xml
+drwxrwxr-x  2 yiyufafa yiyufafa  4096  7月 26 21:59 assets
+drwxrwxr-x  4 yiyufafa yiyufafa  4096  7月 26 23:34 bin
+-rw-rw-r--  1 yiyufafa yiyufafa   356  7月 26 22:00 .classpath
+drwxrwxr-x  3 yiyufafa yiyufafa  4096  7月 26 22:00 gen
+drwxrwxr-x  7 yiyufafa yiyufafa  4096  7月 27 18:04 .git
+-rw-rw-r--  1 yiyufafa yiyufafa 36498  7月 26 21:59 ic_launcher-web.png
+drwxrwxr-x  2 yiyufafa yiyufafa  4096  7月 26 21:59 libs
+-rw-rw-r--  1 yiyufafa yiyufafa   781  7月 26 21:59 proguard-project.txt
+-rw-rw-r--  1 yiyufafa yiyufafa   810  7月 26 21:59 .project
+-rw-rw-r--  1 yiyufafa yiyufafa   563  7月 26 21:59 project.properties
+drwxrwxr-x  9 yiyufafa yiyufafa  4096  7月 26 21:59 res
+drwxrwxr-x  2 yiyufafa yiyufafa  4096  7月 26 21:59 .settings
+drwxrwxr-x  3 yiyufafa yiyufafa  4096  7月 26 21:59 src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.classpath
+#	.project
+#	.settings/
+#	AndroidManifest.xml
+#	bin/
+#	gen/
+#	ic_launcher-web.png
+#	libs/
+#	proguard-project.txt
+#	project.properties
+#	res/
+#	src/
+nothing added to commit but untracked files present (use "git add" to track)
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ vi .gitignore
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.classpath
+#	.gitignore
+#	.project
+#	.settings/
+#	AndroidManifest.xml
+#	ic_launcher-web.png
+#	libs/
+#	proguard-project.txt
+#	project.properties
+#	res/
+#	src/
+nothing added to commit but untracked files present (use "git add" to track)
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git add .
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .classpath
+#	new file:   .gitignore
+#	new file:   .project
+#	new file:   .settings/org.eclipse.jdt.core.prefs
+#	new file:   AndroidManifest.xml
+#	new file:   ic_launcher-web.png
+#	new file:   libs/android-support-v4.jar
+#	new file:   proguard-project.txt
+#	new file:   project.properties
+#	new file:   res/drawable-hdpi/ic_action_search.png
+#	new file:   res/drawable-hdpi/ic_launcher.png
+#	new file:   res/drawable-ldpi/ic_launcher.png
+#	new file:   res/drawable-mdpi/ic_action_search.png
+#	new file:   res/drawable-mdpi/ic_launcher.png
+#	new file:   res/drawable-xhdpi/ic_action_search.png
+#	new file:   res/drawable-xhdpi/ic_launcher.png
+#	new file:   res/layout/activity_main.xml
+#	new file:   res/menu/activity_main.xml
+#	new file:   res/values/strings.xml
+#	new file:   res/values/styles.xml
+#	new file:   src/com/example/applock/MainActivity.java
+#
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git commit
+使用"fg" 返回nano
+
+[1]+  已停止               git commit
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git commit -m "create project"
+[master (root-commit) cc977c4] create project
+ 21 files changed, 184 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .gitignore
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 AndroidManifest.xml
+ create mode 100644 ic_launcher-web.png
+ create mode 100644 libs/android-support-v4.jar
+ create mode 100644 proguard-project.txt
+ create mode 100644 project.properties
+ create mode 100644 res/drawable-hdpi/ic_action_search.png
+ create mode 100644 res/drawable-hdpi/ic_launcher.png
+ create mode 100644 res/drawable-ldpi/ic_launcher.png
+ create mode 100644 res/drawable-mdpi/ic_action_search.png
+ create mode 100644 res/drawable-mdpi/ic_launcher.png
+ create mode 100644 res/drawable-xhdpi/ic_action_search.png
+ create mode 100644 res/drawable-xhdpi/ic_launcher.png
+ create mode 100644 res/layout/activity_main.xml
+ create mode 100644 res/menu/activity_main.xml
+ create mode 100644 res/values/strings.xml
+ create mode 100644 res/values/styles.xml
+ create mode 100644 src/com/example/applock/MainActivity.java
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ls
+AndroidManifest.xml  bin  ic_launcher-web.png  proguard-project.txt  res
+assets               gen  libs                 project.properties    src
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git status
+# On branch master
+nothing to commit (working directory clean)
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git .git
+.git/       .gitignore  
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git .git
+.git/       .gitignore  
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git .git/
+branches/       description     index           objects/
+COMMIT_EDITMSG  HEAD            info/           refs/
+config          hooks/          logs/           
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git .git/
+branches/       description     index           objects/
+COMMIT_EDITMSG  HEAD            info/           refs/
+config          hooks/          logs/           
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git .git/
+branches/       description     index           objects/
+COMMIT_EDITMSG  HEAD            info/           refs/
+config          hooks/          logs/           
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git .git/objects/
+00/   13/   1e/   38/   52/   67/   78/   8f/   ac/   cc/   d2/   e9/   info/
+01/   16/   23/   44/   59/   70/   80/   9e/   b7/   ce/   d3/   f2/   pack/
+10/   18/   30/   4d/   5c/   72/   8a/   a4/   c4/   cf/   d6/   f7/   
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git .git/objects/
+00/   13/   1e/   38/   52/   67/   78/   8f/   ac/   cc/   d2/   e9/   info/
+01/   16/   23/   44/   59/   70/   80/   9e/   b7/   ce/   d3/   f2/   pack/
+10/   18/   30/   4d/   5c/   72/   8a/   a4/   c4/   cf/   d6/   f7/   
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git remote add origin git@github.com:Adoni/Adoni.git
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ git pugit sh origin master
+Counting objects: 37, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (37/37), 337.47 KiB, done.
+Total 37 (delta 2), reused 0 (delta 0)
+To git@github.com:Adoni/Adoni.git
+ * [new branch]      master -> master
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ gitk
+程序“gitk”尚未安装。  您可以使用以下命令安装：
+sudo apt-get install gitk
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ cat .git
+.git/       .gitignore  
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ cat .git
+.git/       .gitignore  
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ cat .git/
+branches/       description     index           objects/
+COMMIT_EDITMSG  HEAD            info/           refs/
+config          hooks/          logs/           
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ cat .git/
+branches/       description     index           objects/
+COMMIT_EDITMSG  HEAD            info/           refs/
+config          hooks/          logs/           
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ cat .git/config ls -al
+
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:Adoni/Adoni.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ ^Ctk
+yiyufafa@yiyufafa-Lenovo-G470:~/workspace/AppLock$ 
+

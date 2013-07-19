@@ -1,0 +1,6 @@
+1.新加入的Activity必须在Manifest文件中添加相应的<Activity>，并设置其属性和intent-filter。
+2.布局文件无论什么空间都必须加上layout_with和heigh，否则运行出错。
+3.ListView的Activity可以继承自Activity亦可继承自ListActivity，但需要注意的是二者之间的差别。
+4.Caused by: java.lang.NullPointerException多半是没有构造造成的，即需要加上Object=new Object();
+5.List中如果有CheckBox那么点击没反应，解决办法是在CheckBox中去掉focus，方法有二，一是通过setFocusable(false)，二是通过android:focusable="false"。
+
