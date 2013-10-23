@@ -1,0 +1,10 @@
+丫的老子一定要写一个指南！
+====
+##1.环境搭建
+ndk-r8e
+##2.eclipse
+添加C++的时候记得去掉最底下的"Show project type..."选项，并在"Makefile project"里选择GNU
+
+如下图：
+
+![](./GNU.png)

@@ -1,0 +1,9 @@
+Changes of Rails 4.0
+====
+1.对于以往的model声明，需要加入attr_accessible，在4.0中已经默认无需添加，凡是在数据库中声明的字段都可以直接使用，如果添加反而会引起错误。
+2.params无法直接在controller中使用了，这一点在Rails中算是比较大的改动，如果需要使用，可以有两种方法：
+>1)使用前加一条语句：`params.permit!`，使params具有可用属性。这样，以后的params就和以前一样使用了。
+>2)可以通过params.require(:name).permit!直接调用。
+其实是一种方法~
+3.routes的声明方法开始忌讳match，最好直接使用post，get和patch，这个网上讲的很多。
+4.session。session可以直接使用，无需任何声明。这一点我不知道是不是rails4.0的新特性，但是网上的好多资料都是过时的了。不要轻信。
