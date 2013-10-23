@@ -1,0 +1,19 @@
+Small But Important!!!
+====
+#1.Python VS MySQL
+Python如何操纵MySQL并且插入中文且查询时间显示中文
+	conn=MySQLdb.connect(host='localhost',user='root',passwd='mypw',port=3306)
+	cur=conn.cursor()
+	cur.execute('create database if not exists shasha default charset=utf8')
+	conn.select_db('shasha')
+	cur.execute('create table users(name varchar(100)) default charset=utf8')
+	conn = MySQLdb.connect(host=strHost, db=strDB, user=strUser, 		passwd=strPasswd, charset="utf8")
+	curs = conn.cursor()
+	curs.execute("SET NAMES utf8")
+	curs.execute("SET CHARACTER_SET_CLIENT=utf8")
+	curs.execute("SET CHARACTER_SET_RESULTS=utf8")
+	conn.commit()
+	strVal = "广州"
+	strSql = "INSERT INTO users values( '%s' )" % strVal
+	ret = curs.execute(strSql)
+	conn.commit()
