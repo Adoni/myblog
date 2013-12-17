@@ -1,6 +1,5 @@
 Rails Notes
 ====
-2. 涉及到jQuery的插件或者效果不起作用时，可以尝试用rake assets:precompile解决。
 3. 关于如何部署到heroku上，要记得以下几点：
 >1）在Gemfile里需声明使用数据库使用postgresql，将原本的数据库gem声明——例如`gem 'mysql2'`，
 改为
@@ -17,6 +16,8 @@ Rails Notes
 	config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 	config.assets.compile = true
 >5)上传之后记得运行heroku run rake db:migrate
+2. 涉及到jQuery的插件或者效果不起作用时，可以尝试用rake assets:precompile解决。
 >6)使用图片的话用`src: "<%= asset_path('logo.png')`去引用图片，而非直接用`/assets/logo.png`
 4. 下载文件用send_file，将文件存在public下，通过“public/filename”可以直接引用
 5. 上传文件的方法，见https://github.com/thoughtbot/paperclip
+6. 使用flatui注意：需要重启服务器，或者rake assets:precompile
