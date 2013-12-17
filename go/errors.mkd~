@@ -23,5 +23,9 @@
 	var a [10]byte={1,2,3}
 	var a [10]byte=[1,2,3]
 	var a [10]byte=[]byte([1,2,3])//这种方式和python里的一些用法有点类似
-	var a [10]byte=[10]byte()
+	var a [10]byte=[10]byte({1,2,3})
+	
+额……总之都不行T_T
+
+
 
